@@ -1,0 +1,40 @@
+@import '../../../../styles/colors';
+
+.Kalend__Event__summary {
+  display: -webkit-box;
+  webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 5px 1px 6px 4px;
+  opacity: 1;
+  overflow: hidden;
+  color: white;
+  font-weight: 600;
+  @media (min-width: 750px) {
+    font-size: 0.8em;
+  }
+  white-space: inherit;
+}
+
+.Kalend__Event__summary__type {
+  &-header {
+    padding: 1px;
+    padding-left: 3px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  &-month {
+    padding: 1px;
+    padding-left: 3px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  &-agenda {
+    padding: 8px;
+    font-weight: 600;
+    font-size: 1em;
+  }
+}
