@@ -72,16 +72,6 @@
   }
 }
 
-.Kalend__ButtonIcon__disabled {
-  cursor: default !important;
-  &:hover {
-    background-color: transparent !important;
-  }
-  &:active {
-    background-color: transparent !important;
-  }
-}
-
 .Kalend__ButtonIcon__svg {
   width: 100%;
   height: 100%;
