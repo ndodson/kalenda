@@ -5,7 +5,7 @@
       "es2017",
       "dom"
     ],
-    "module": "commonjs",
+    "module": "esnext",
     "target": "ES6",
     "declaration": true,
     "outDir": "dist",
@@ -19,7 +19,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false,
+    "noEmit": true,
     "noFallthroughCasesInSwitch": true
   },
   "exclude": [
@@ -38,4 +38,3 @@
     "src"
   ]
 }
-
