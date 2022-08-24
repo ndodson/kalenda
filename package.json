@@ -22,7 +22,7 @@
     "url": "https://github.com/nibdo/kalend"
   },
   "dependencies": {
-    "@swc/helpers": "0.2.14",
+    "@swc/helpers": "^0.4.2",
     "kalend-layout": "0.0.8",
     "luxon": "2.1.1",
     "patch-package": "^6.4.7",
@@ -34,9 +34,9 @@
   ],
   "devDependencies": {
     "@babel/core": "7.16.0",
-    "@parcel/packager-ts": "2.5.0",
+    "@parcel/packager-ts": "^2.7.0",
     "@parcel/transformer-sass": "^2.5.0",
-    "@parcel/transformer-typescript-types": "2.5.0",
+    "@parcel/transformer-typescript-types": "^2.7.0",
     "@storybook/addon-actions": "6.4.8",
     "@storybook/addon-console": "1.2.3",
     "@storybook/addon-essentials": "6.4.8",

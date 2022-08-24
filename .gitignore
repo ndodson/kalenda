@@ -1,11 +1,8 @@
-/dist/
 /node_modules/
 .idea/
-/build/
 .parcel-cache
 kalend-*
 calend-*
-.husky
 
 
 #example_app
